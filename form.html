@@ -1,0 +1,43 @@
+<!Doctype Html>  
+<Html>     
+<Head>      
+<Title> form</title>
+<body>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username">
+    </form>
+    <form>
+        <label for="user-pwd">Password:</label>
+        <input type="password" name="user-password" id="user-pwd">
+    </form>
+    <form>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+    </form>
+    <form>
+    <label for="file-select">Upload:</label>
+    <input type="file" name="upload" id="file-select">
+</form>
+<form>
+    <label for="address">Address:</label>
+    <textarea rows="3" cols="30" name="address" id="address"></textarea>
+</form>
+<form action="action.php" method="post">
+    <label for="first-name">First Name:</label>
+    <input type="text" name="first-name" id="first-name">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+<form>
+    <fieldset>
+        <legend>Contact Details</legend>
+        <label>Email Address: <input type="email" name="email"></label>
+        <label>Phone Number: <input type="text" name="phone"></label>
+    </fieldset>
+</form>
+</head>
+</body>
+</html>
